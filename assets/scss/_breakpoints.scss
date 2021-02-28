@@ -1,0 +1,48 @@
+
+/*    ***Breakpoints***
+*****************************************************************************************************************************************************************************/
+
+
+
+@mixin mq-md {
+   @media screen and (min-width: 36em){
+       @content;
+   }
+}
+
+
+@mixin mq-lg {
+    @media screen and (min-width: 62em){
+        @content;
+    }
+ }
+
+
+@mixin mq-xl {
+    @media screen and (min-width: 87em){
+        @content;
+    }
+ }
+
+
+@mixin mq-sm-o {
+    @media screen and (max-width: 35.9375em){
+        @content;
+    }
+ }
+
+
+@mixin mq-md-o {
+    @media screen and (min-width: 36em) and (max-width: 61.9375em){
+        @content;
+    }
+ }
+
+
+
+@mixin mq-lg-o {
+   @media screen and (min-width: 62em) and (max-width: 86.9375){
+       @content;
+   }
+}
+

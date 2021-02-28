@@ -1,0 +1,43 @@
+/* Just using the first letter of a word in the mixin*/
+
+
+@mixin d-f ($flex-direction:row) {
+    display: flex;
+    flex-direction: $flex-direction;
+}
+
+
+
+@mixin d-f--jc-se ($flex-direction:row) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: $flex-direction;
+}
+
+@mixin d-f--jc-se--fw-w($flex-direction:row) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: $flex-direction;
+}
+
+
+@mixin d-f--jc-c--ai-c ($flex-direction:row) {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: $flex-direction;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Maybe entering the default argument of flex-direction of 'row' wasn't necessary here because by default, flex-direciton is row.
