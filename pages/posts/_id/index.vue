@@ -1,9 +1,13 @@
 <template>
 
 <!-- Component's global style -->
+<div>
+
 <div class=
 "has-background-white-ter
 has-text-centered ">
+
+
 
 
 <!-- Post Title -->
@@ -45,18 +49,21 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur facere su
 
 
 
-    
+   </div> 
  </div>  
 </template>
 
 <script>
+
     export default {
+
         
     }
 </script>
 
 
 <style lang="scss" scoped>
+
 
 @import '~/assets/scss/style.scss';
 

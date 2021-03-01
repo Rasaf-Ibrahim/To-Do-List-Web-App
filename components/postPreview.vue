@@ -394,6 +394,7 @@ Read More..
 
 <style lang="scss" scoped>
 
+
 @import '~/assets/scss/style.scss';
 
 .scss-flex-item{

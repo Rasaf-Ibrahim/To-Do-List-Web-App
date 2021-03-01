@@ -1,17 +1,20 @@
+// dont's use the following style when you are working with bulma framework. Margin and padding will be dissappeared if you do so.
 
-html {
-  box-sizing: border-box;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
- font-family: 'Montserrat', sans-serif;
+
+// html {
+//   box-sizing: border-box;
+// }
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: inherit;
+//   margin: 0;
+//   padding: 0;
+//  font-family: 'Montserrat', sans-serif;
  
-}
+// }
 
  /* 
  Elements will be stripped of margins and padding, and box-sizing lets you manage layouts using the CSS box model.

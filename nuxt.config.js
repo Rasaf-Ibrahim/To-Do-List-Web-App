@@ -1,3 +1,4 @@
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -12,11 +13,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [ 'bulma'
+  css: [ { src: '~/assets/bulma/mystyles.scss', lang: 'sass' }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

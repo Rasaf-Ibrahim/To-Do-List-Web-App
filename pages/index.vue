@@ -2,14 +2,19 @@
 
 <!-- Component's global style -->
 
-<div class="has-background-white"
->
+<div>
+
+
+<!-- Navbar -->
+
+<navbar/>
+
+
+
 
 <!-- Website's Title -->
 
-<section class=
-"is-size-1 
-has-text-centered py-6 ">
+<section>
 Fish Fish Fish! | Read about fish!
 </section>
 
@@ -23,6 +28,7 @@ Fish Fish Fish! | Read about fish!
 </template>
 
 <script>
+import Navbar from '../components/navbar.vue'
 
     export default {
 
