@@ -1,9 +1,11 @@
+import {FaCopyright} from 'react-icons/fa'
+
+
 function Footer() {
   
     let date = new Date();
     let year = date.getFullYear();
-    let footer = `Copyright © ${year}`;
-    
+
 
     return (
             <footer className="bg-s-t1a2 text-center _p-16px _space-y-16px group">
@@ -21,7 +23,11 @@ function Footer() {
 
             
                 
-                <p>{footer}</p>
+                <p className='flex _gap-x-8px items-center justify-center'>
+                    <div>Copyright</div>
+                    <div><FaCopyright/> </div>
+                    <div>{year}</div>
+                </p>
 
 
                 
