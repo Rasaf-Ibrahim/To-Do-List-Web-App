@@ -1,0 +1,18 @@
+@layer utilities {
+
+
+.-card-2-4{
+    @apply
+    max-w-[20rem]
+    rounded-3 bg-s-t1a3 -shadow-sm
+}
+
+
+.-card-2-4{
+    @apply
+    max-w-[12rem]
+    rounded-3 bg-s-t1a3 -shadow-sm
+}
+
+
+}

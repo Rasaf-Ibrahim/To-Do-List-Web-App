@@ -1,0 +1,73 @@
+
+@layer base {
+
+
+    :root {
+
+        /*bg-gray-l1a1 or, text-gray-l1a1 */
+       --gray-layer-1-alpha-1: hsl(0,0%,20%); 
+
+       /*bg-gray-l1a2 or, text-gray-l1a2 */
+       --gray-layer-1-alpha-2: hsl(0,0%,30%); 
+
+       /*bg-gray-l1a3 or, text-gray-l1a3 */
+       --gray-layer-1-alpha-3: hsl(0,0%,40%); 
+
+       /*bg-gray-l1a4 or, text-gray-l1a4 */
+       --gray-layer-1-alpha-4: hsl(0,0%,50%); 
+
+
+
+
+
+       /*bg-gray-l2a1 or, text-gray-l2a1 */
+       --gray-layer-2-alpha-1: hsl(0,0%,80%);
+      
+       /*bg-gray-l2a2 or, text-gray-l2a2 */
+       --gray-layer-2-alpha-2: hsl(0,0%,70%); 
+
+       /*bg-gray-l2a3 or, text-gray-l2a3 */
+       --gray-layer-2-alpha-3: hsl(0,0%,60%); 
+
+       /*bg-gray-l2a4 or, text-gray-l2a4 */
+       --gray-layer-2-alpha-4: hsl(0,0%,50%); 
+
+    }
+
+
+
+
+
+    .dark {
+
+        /*bg-gray-l1a1 or, text-gray-l1a1 */
+        --gray-layer-1-alpha-1: hsl(0,0%,80%);
+      
+        /*bg-gray-l1a2 or, text-gray-l1a2 */
+        --gray-layer-1-alpha-2: hsl(0,0%,70%); 
+ 
+        /*bg-gray-l1a3 or, text-gray-l1a3 */
+        --gray-layer-1-alpha-3: hsl(0,0%,60%); 
+ 
+        /*bg-gray-l1a4 or, text-gray-l1a4 */
+        --gray-layer-1-alpha-4: hsl(0,0%,50%); 
+ 
+
+
+
+
+       /*bg-gray-l2a1 or, text-gray-l2a1 */
+       --gray-layer-2-alpha-1: hsl(0,0%,20%);
+      
+       /*bg-gray-l2a2 or, text-gray-l2a2 */
+       --gray-layer-2-alpha-2: hsl(0,0%,30%); 
+
+       /*bg-gray-l2a3 or, text-gray-l2a3 */
+       --gray-layer-2-alpha-3: hsl(0,0%,40%); 
+
+       /*bg-gray-l2a4 or, text-gray-l2a4 */
+       --gray-layer-2-alpha-4: hsl(0,0%,50%); 
+        
+    }
+
+}

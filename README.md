@@ -1,19 +1,18 @@
-# to-do-app
+# React  TailwindCSS Boilerplate (Build Tool: Vite)
 
-## Project setup
-```
+
+
+### Project setup
+```bash
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+npm run dev
 ```
 
 ### Compiles and minifies for production
+```bash
+npm run prod
 ```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

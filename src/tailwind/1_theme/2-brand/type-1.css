@@ -1,0 +1,87 @@
+
+@layer base {
+
+       
+    :root {
+
+        /*
+        If I use the darkest color for bg-b-t1l1a1, then I have to use the lightest color for .dark.bg-b-t1l1a1.
+
+        And this theory is true for all brand color & specific color, not for surface color.
+        
+        */
+
+
+ 
+         /* bg-b-t1l1a1  or, text-b-t1l1a1 */
+         --brand-type-1-layer-1-alpha-1:hsl(70,32%,20%);
+
+         /*bg-b-t1l1a2 or, text-b-t1l1a2  */
+         --brand-type-1-layer-1-alpha-2:hsl(70,32%,30%);
+ 
+         /*bg-b-t1l1a3  or, text-b-t1l1a3 */
+         --brand-type-1-layer-1-alpha-3:hsl(70,32%,40%);
+
+         /*bg-b-t1l1a4  or, text-b-t1l1a4 */
+         --brand-type-1-layer-1-alpha-4:hsl(70,32%,50%);
+
+ 
+ 
+ 
+         /* bg-b-t1l2a1  or, text-b-t1l2a1*/
+        --brand-type-1-layer-2-alpha-1:hsl(70,32%,80%);
+ 
+        /*bg-b-t1l2a2 or, text-b-t1l2a2 */
+        --brand-type-1-layer-2-alpha-2:hsl(70,32%,70%);
+ 
+        /*bg-b-t1l2a3  or, text-b-t1l2a3 */
+        --brand-type-1-layer-2-alpha-3:hsl(70,32%,60%);
+
+        /*bg-b-t1l2a4 or, text-b-t1l2a4 */
+        --brand-type-1-layer-2-alpha-4:hsl(70,32%,50%);
+ 
+ 
+     }
+ 
+ 
+ 
+ 
+ 
+     .dark {
+          
+        /* bg-b-t1l1a1  or, text-b-t1l1a1*/
+        --brand-type-1-layer-1-alpha-1:hsl(70,32%,80%);
+ 
+        /*bg-b-t1l1a2 or, text-b-t1l1a2 */
+        --brand-type-1-layer-1-alpha-2:hsl(70,32%,70%);
+ 
+        /*bg-b-t1l1a3  or, text-b-t1l1a3 */
+        --brand-type-1-layer-1-alpha-3:hsl(70,32%,60%);
+
+        /*bg-b-t1l1a4 or, text-b-t1l1a4 */
+        --brand-type-1-layer-1-alpha-4:hsl(70,32%,50%);
+ 
+ 
+ 
+ 
+       /* bg-b-t1l2a1  or, text-b-t1l2a1 */
+       --brand-type-1-layer-2-alpha-1:hsl(70,32%,20%);
+
+       /*bg-b-t1l2a2 or, text-b-t1l2a2  */
+       --brand-type-1-layer-2-alpha-2:hsl(70,32%,30%);
+
+       /*bg-b-t1l2a3  or, text-b-t1l2a3 */
+       --brand-type-1-layer-2-alpha-3:hsl(70,32%,40%);
+
+       /*bg-b-t1l2a4  or, text-b-t1l2a4 */
+       --brand-type-1-layer-2-alpha-4:hsl(70,32%,50%);
+
+           
+    }
+    
+
+}
+
+
+
+
