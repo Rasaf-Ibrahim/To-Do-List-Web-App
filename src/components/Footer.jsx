@@ -11,7 +11,7 @@ function Footer() {
 
             <div>
 
-                <span> Check out the code of the website on </span>
+                <span> Check out the code of this web app on </span>
 
                 <a  href='https://github.com/Rasaf-Ibrahim/To-Do-List-Web-App' className="font-semibold text-b-t1l1a1 group-hover:animate-pulse cursor-pointer"
                 title="Click">GitHub</a>

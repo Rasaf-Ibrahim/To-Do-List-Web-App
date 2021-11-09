@@ -55,7 +55,7 @@ function App() {
 
 
     return (
-        <div style={keepTheFooterAtTheBottom} className='_space-y-24px relative' >
+        <div style={keepTheFooterAtTheBottom} className='_space-y-24px' >
 
         
 
@@ -74,10 +74,15 @@ function App() {
                         handleSubmit={handleSubmit}
                     />
 
-                    <SearchItem
-                        search={search}
-                        setSearch={setSearch}
-                    />
+
+                   {items.length ? ( 
+
+                        <SearchItem
+                            search={search}
+                            setSearch={setSearch}
+                        />
+
+                    ): null}
 
                     <Content
                         items={items.filter(item => ((item.item).toLowerCase()).includes(search.toLowerCase()))}
@@ -94,8 +99,7 @@ function App() {
             <Footer length={items.length} />
 
 
-            <div className='fixed bottom-[5rem] right-0 bg-b-t1l1a4 text-l2-a1 -shadow-xs _p-4px rounded-l-3'>{items.length} list {items.length===1 ? 'item' : "items"}</div>
-
+           
             
 
         </div>

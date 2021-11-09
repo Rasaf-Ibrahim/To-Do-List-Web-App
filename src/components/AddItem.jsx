@@ -1,5 +1,7 @@
-import {FaPlus} from 'react-icons/fa'
-import { useRef } from 'react'
+import {FaPlusSquare} from 'react-icons/fa'
+
+
+import { useRef } from 'react';
 
 const AddItem = ({newItem, setNewItem, handleSubmit}) => {
 
@@ -34,6 +36,7 @@ const AddItem = ({newItem, setNewItem, handleSubmit}) => {
                     className='col-span-8 py-2 px-4 rounded-2 -h5 bg-s-t1a4 _shadow-xs border border-s-t1a1  placeholder-l1-a3  focus:outline-none focus:ring-2 focus:ring-b-t1l1a1 focus:border-0 ' />
         
 
+
         
 
 
@@ -43,12 +46,13 @@ const AddItem = ({newItem, setNewItem, handleSubmit}) => {
             <div className='col-span-2 justify-self-center'>
             
                 <button className='-btn-scale-down text-b-t1l1a1 hover:text-green-l1a1'
-                        type='type' 
                         onClick={() => inputRef.current.focus()}> 
-                        <FaPlus/>
+                        <FaPlusSquare size={25}/>
                 </button>
 
             </div>
+
+           
             
         </form>
         

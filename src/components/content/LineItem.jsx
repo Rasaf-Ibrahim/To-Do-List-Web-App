@@ -5,7 +5,7 @@ const LineItem = ({item, handleCheck, handleDelete}) => {
     return (
         <div>
 
-            <li className="grid grid-cols-12 items-center gap-x-16px bg-s-t1a3 -shadow-xs" >
+            <li className="grid grid-cols-12 items-center gap-x-16px bg-s-t1a3 -shadow-xs -fade-in-right" >
 
                 <div className='col-span-8 _p-8px flex items-center _gap-8px'>
 
@@ -30,7 +30,7 @@ const LineItem = ({item, handleCheck, handleDelete}) => {
 
 
 
-                    <button onClick={() => handleDelete(item.id)} className='block col-span-4 justify-self-center text-b-t1l1a1 hover:text-red-l1a1'><FaTrash/></button>
+                    <button onClick={() => handleDelete(item.id)} className='block col-span-4 justify-self-center text-b-t1l1a1 hover:text-red-l1a1 '><FaTrash size={20}/></button>
                 
             </li>
 
