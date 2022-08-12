@@ -1,9 +1,0 @@
-
-
-/* the following class is used in fixed navbar component */
-
-.highlightMenu {
-    @apply
-    bg-b-t1l1a1
-    text-l2-a1;
-}
